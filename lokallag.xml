@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lokallag
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="lokallag.xsd">
+
+    <laginfo>
+        <lagnavn>Datalag</lagnavn>
+        <møtelokale>
+            <navn>Akvariet</navn>
+            <adresse>
+                <gatenavn>Nordnesbakken 4</gatenavn>
+                <postnummer>5005</postnummer>
+                <poststed>Bergen</poststed>
+            </adresse>
+        </møtelokale>
+    </laginfo>
+
+    <leder>
+        <navn>
+            <fornavn>Per</fornavn>
+            <etternavn>Andersen</etternavn>
+        </navn>
+        <kontaktinfo>
+            <telefon>12345678</telefon>
+            <epost>per.andersen@datamail.no</epost>
+        </kontaktinfo>
+    </leder>
+
+    <medlemmer>
+        <medlem mId="1">
+            <navn>
+                <fornavn>Per</fornavn>
+                <etternavn>Andersen</etternavn>
+            </navn>
+            <kontaktinfo>
+                <telefon>12345678</telefon>
+                <epost>per.andersen@datamail.no</epost>
+            </kontaktinfo>
+            <adresse>
+                <gatenavn>Måneskinnsvegen 17</gatenavn>
+                <postnummer>5019</postnummer>
+                <poststed>Bergen</poststed>
+            </adresse>
+            <status>aktiv</status>
+            <medlemsavgift>
+                <avgift år="2023">
+                    <betalt>ja</betalt>
+                    <betalingsdato>2023-02-15</betalingsdato>
+                </avgift>
+                <avgift år="2024">
+                    <betalt>ja</betalt>
+                    <betalingsdato>2024-01-20</betalingsdato>
+                </avgift>
+                <avgift år="2025">
+                    <betalt>nei</betalt>
+                </avgift>
+            </medlemsavgift>
+        </medlem>
+
+        <medlem mId="2">
+            <navn>
+                <fornavn>Harald</fornavn>
+                <etternavn>Bergensen</etternavn>
+            </navn>
+            <kontaktinfo>
+                <telefon>223344556</telefon>
+                <epost>harald.bergensen@datamail.no</epost>
+            </kontaktinfo>
+            <adresse>
+                <gatenavn>Trollskogen 12</gatenavn>
+                <postnummer>5002</postnummer>
+                <poststed>Bergen</poststed>
+            </adresse>
+            <status>aktiv</status>
+            <medlemsavgift>
+                <avgift år="2023">
+                    <betalt>ja</betalt>
+                    <betalingsdato>2023-03-01</betalingsdato>
+                </avgift>
+                <avgift år="2024">
+                    <betalt>ja</betalt>
+                    <betalingsdato>2024-02-10</betalingsdato>
+                </avgift>
+                <avgift år="2025">
+                    <betalt>ja</betalt>
+                    <betalingsdato>2025-01-30</betalingsdato>
+                </avgift>
+            </medlemsavgift>
+        </medlem>
+
+        <medlem mId="3">
+            <navn>
+                <fornavn>Ole</fornavn>
+                <etternavn>Person</etternavn>
+            </navn>
+            <kontaktinfo>
+                <telefon>49333333</telefon>
+                <epost>ole.person@datamail.no</epost>
+            </kontaktinfo>
+            <adresse>
+                <gatenavn>Froststien 21</gatenavn>
+                <postnummer>5050</postnummer>
+                <poststed>Bergen</poststed>
+            </adresse>
+            <status>inaktiv</status>
+            <medlemsavgift>
+                <avgift år="2023">
+                    <betalt>ja</betalt>
+                    <betalingsdato>2023-04-05</betalingsdato>
+                </avgift>
+                <avgift år="2024">
+                    <betalt>nei</betalt>
+                </avgift>
+                <avgift år="2025">
+                    <betalt>nei</betalt>
+                </avgift>
+            </medlemsavgift>
+        </medlem>
+    </medlemmer>
+</lokallag>
