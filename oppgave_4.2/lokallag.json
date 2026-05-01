@@ -1,0 +1,115 @@
+{
+  "lokallag": {
+    "lokallag_id": 1,
+    "lagnavn": "Datalag",
+    "motelokale": {
+      "navn": "Akvariet",
+      "adresse": {
+        "gatenavn": "Nordnesbakken 4",
+        "postnummer": "5005",
+        "poststed": "Bergen"
+      }
+    },
+    "leder": {
+      "mId": 1,
+      "fornavn": "Per",
+      "etternavn": "Andersen"
+    },
+    "medlemmer": [
+      {
+      "mId": 1,
+      "fornavn": "Per",
+      "etternavn": "Andersen",
+      "kontaktinfo": {
+        "telefon": "12345678",
+        "epost": "per.andersen@datamail.no"
+      },
+      "adresse": {
+        "gatenavn": "Måneskinnsvegen 17",
+        "postnummer": "5019",
+        "poststed": "Bergen"
+      },
+      "status": "aktiv",
+      "medlemsavgift": [
+        {
+          "ar": 2023,
+          "betalt": "ja",
+          "betalingsdato": "2024-01-20"
+        },
+        {
+          "ar": 2024,
+          "betalt": "ja",
+          "betalingsdato": "2024-01-20"
+        },
+        {
+          "ar": 2025,
+          "betalt": "nei"
+        }
+      ]
+    },
+      {
+        "mId": 2,
+        "fornavn":"Harald",
+        "etternavn": "Bergensen",
+        "kontaktinfo": {
+          "telefon": "223344556",
+          "epost": "harald.bergensen@datamail.no"
+        },
+        "adresse": {
+          "gatenavn": "Trollskogen 12",
+          "postnummer": "5002",
+          "poststed": "Bergen"
+        },
+        "status": "aktiv",
+        "medlemsavgift": [
+          {
+            "ar": 2023,
+            "betalt": "ja",
+            "betalingsdato": "2023-03-01"
+          },
+          {
+            "ar": "2023",
+            "betalt": "ja",
+            "betalingsdato": "202402-10"
+          },
+          {
+            "ar": 2025,
+            "betalt": "ja",
+            "betalingsdato": "2025-01-30"
+          }
+          ]
+      },
+      {
+        "mId": 3,
+        "fornavn": "Ole",
+        "ettenavn": "Person",
+        "kontaktinfo": {
+          "telefon": "49333333",
+          "epost": "ole.person@datamail.no"
+        },
+        "adresse": {
+          "gatenavn": "Froststien 21",
+          "postnummer": "5050",
+          "poststed": "Bergen"
+        },
+        "status": "inaktiv",
+        "medlemsavgift": [
+          {
+            "ar": 2023,
+            "betalt": "ja",
+            "betalingsdato": "2023-04-05"
+          },
+          {
+            "ar": 2024,
+            "betalt": "nei"
+          },
+          {
+            "ar": 2025,
+            "betalt": "nei"
+          }
+          ]
+          }
+        ]
+      }
+  }
+
