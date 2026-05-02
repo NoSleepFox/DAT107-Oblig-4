@@ -17,42 +17,42 @@
     },
     "medlemmer": [
       {
-      "mId": 1,
-      "fornavn": "Per",
-      "etternavn": "Andersen",
-      "kontaktinfo": {
-        "telefon": "12345678",
-        "epost": "per.andersen@datamail.no"
-      },
-      "adresse": {
-        "gatenavn": "Måneskinnsvegen 17",
-        "postnummer": "5019",
-        "poststed": "Bergen"
-      },
-      "status": "aktiv",
-      "medlemsavgift": [
-        {
-          "ar": 2023,
-          "betalt": "ja",
-          "betalingsdato": "2024-01-20"
+        "mId": 1,
+        "fornavn": "Per",
+        "etternavn": "Andersen",
+        "kontaktinfo": {
+          "telefon": "12345678",
+          "epost": "per.andersen@datamail.no"
         },
-        {
-          "ar": 2024,
-          "betalt": "ja",
-          "betalingsdato": "2024-01-20"
+        "adresse": {
+          "gatenavn": "Måneskinnsvegen 17",
+          "postnummer": "5019",
+          "poststed": "Bergen"
         },
-        {
-          "ar": 2025,
-          "betalt": "nei"
-        }
-      ]
-    },
+        "status": "aktiv",
+        "medlemsavgift": [
+          {
+            "ar": 2023,
+            "betalt": "ja",
+            "betalingsdato": "2024-01-20"
+          },
+          {
+            "ar": 2024,
+            "betalt": "ja",
+            "betalingsdato": "2024-01-20"
+          },
+          {
+            "ar": 2025,
+            "betalt": "nei"
+          }
+        ]
+      },
       {
         "mId": 2,
-        "fornavn":"Harald",
+        "fornavn": "Harald",
         "etternavn": "Bergensen",
         "kontaktinfo": {
-          "telefon": "223344556",
+          "telefon": "22334455",
           "epost": "harald.bergensen@datamail.no"
         },
         "adresse": {
@@ -70,19 +70,19 @@
           {
             "ar": "2023",
             "betalt": "ja",
-            "betalingsdato": "202402-10"
+            "betalingsdato": "2024-02-10"
           },
           {
             "ar": 2025,
             "betalt": "ja",
             "betalingsdato": "2025-01-30"
           }
-          ]
+        ]
       },
       {
         "mId": 3,
         "fornavn": "Ole",
-        "ettenavn": "Person",
+        "etternavn": "Person",
         "kontaktinfo": {
           "telefon": "49333333",
           "epost": "ole.person@datamail.no"
@@ -107,9 +107,8 @@
             "ar": 2025,
             "betalt": "nei"
           }
-          ]
-          }
         ]
       }
+    ]
   }
-
+}
